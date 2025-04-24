@@ -1,0 +1,105 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk", 
+        "diorite"
+    ], 
+    "projectType": "native", 
+    "messageKeys": {
+        "KEY_CMD_PAUSE": 10002, 
+        "KEY_STATUS_MUTE_STATE": 10012, 
+        "KEY_CMD_VOL_DOWN": 10005, 
+        "KEY_CMD_STOP": 10003, 
+        "KEY_STATUS_ARTIST_NAME": 10016, 
+        "KEY_CMD_PLAY": 10001, 
+        "KEY_STATUS_TRACK_TITLE": 10015, 
+        "KEY_CMD_VOL_UP": 10004, 
+        "KEY_CMD_APP_READY": 10000, 
+        "KEY_STATUS_ALBUM_NAME": 10017, 
+        "KEY_STATUS_PLAY_STATE": 10010, 
+        "KEY_CMD_NEXT_TRACK": 10007, 
+        "KEY_CMD_GET_STATUS": 10008, 
+        "KEY_JS_READY": 10009, 
+        "KEY_STATUS_VOLUME": 10011, 
+        "KEY_CONFIG_IP_ADDRESS": 10014, 
+        "KEY_CMD_PREV_TRACK": 10006, 
+        "KEY_STATUS_ERROR_MSG": 10013
+    }, 
+    "companyName": "Holygoof", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "longName": "Sonos", 
+    "shortName": "Sonos", 
+    "name": "Sonos", 
+    "sdkVersion": "3", 
+    "displayName": "Sonos", 
+    "uuid": "92D161C6-1164-418F-83C5-DE13DD65BC09", 
+    "appKeys": {
+        "KEY_CMD_PAUSE": 10002, 
+        "KEY_STATUS_MUTE_STATE": 10012, 
+        "KEY_CMD_VOL_DOWN": 10005, 
+        "KEY_CMD_STOP": 10003, 
+        "KEY_STATUS_ARTIST_NAME": 10016, 
+        "KEY_CMD_PLAY": 10001, 
+        "KEY_STATUS_TRACK_TITLE": 10015, 
+        "KEY_CMD_VOL_UP": 10004, 
+        "KEY_CMD_APP_READY": 10000, 
+        "KEY_STATUS_ALBUM_NAME": 10017, 
+        "KEY_STATUS_PLAY_STATE": 10010, 
+        "KEY_CMD_NEXT_TRACK": 10007, 
+        "KEY_CMD_GET_STATUS": 10008, 
+        "KEY_JS_READY": 10009, 
+        "KEY_STATUS_VOLUME": 10011, 
+        "KEY_CONFIG_IP_ADDRESS": 10014, 
+        "KEY_CMD_PREV_TRACK": 10006, 
+        "KEY_STATUS_ERROR_MSG": 10013
+    }, 
+    "capabilities": [
+        "configurable"
+    ], 
+    "watchapp": {
+        "menuIcon": "IMAGE_MENU_ICON", 
+        "watchface": false
+    }, 
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true, 
+                "type": "bitmap", 
+                "name": "IMAGE_MENU_ICON", 
+                "file": "images/menu_icon_s.png"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "ICON_PLAY", 
+                "file": "images/icon_play.png"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "ICON_PAUSE", 
+                "file": "images/icon_pause.png"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "ICON_VOL_UP", 
+                "file": "images/icon_vol_up.png"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "ICON_VOL_DOWN", 
+                "file": "images/icon_vol_down.png"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "ICON_PREV_TRACK", 
+                "file": "images/icon_prev_track.png"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "ICON_NEXT_TRACK", 
+                "file": "images/icon_next_track.png"
+            }
+        ]
+    }
+}

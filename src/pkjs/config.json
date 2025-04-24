@@ -1,0 +1,29 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Sonos Controller Settings"
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Sonos Speaker IP Address"
+      },
+      {
+        "type": "input",
+        "messageKey": "KEY_CONFIG_IP_ADDRESS",
+        "label": "Speaker IP",
+        "description": "Enter the local IP address of the Sonos speaker you want to control (e.g., 192.168.1.100). You can usually find this in your router's device list or the Sonos app (About My System).",
+        "attributes": {
+          "placeholder": "e.g., 192.168.1.100",
+          "type": "text"
+        }
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save Settings"
+  }
+]
